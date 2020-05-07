@@ -1,0 +1,33 @@
+.jieshao{
+  width:100%;
+  height:80rpx;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.collection{
+  width:100rpx;
+  height:100rpx;
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+}
+.jieshao_pic{
+  width:100rpx;
+  height:100rpx;
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+}
+.geshou{
+  width: 100%;
+  margin-top: 60rpx;
+}
+.sing{
+  font-size: 42rpx;
+  margin-top: 20rpx;
+}
+.music image{
+  width:100rpx;
+  height:100rpx;
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+}

@@ -1,0 +1,3 @@
+<button open-type="getUserInfo" bindgetuserinfo="login">登录</button>
+<view>{{userInfo.nickName}}</view>
+<image src="{{userInfo.avatarUrl}}"></image>

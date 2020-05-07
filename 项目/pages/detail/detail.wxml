@@ -1,0 +1,14 @@
+<view>
+  <image src="{{detail.pic}}"></image>
+</view>
+<view class="jieshao">
+  <image class="collection" bindtap="Collection" src="{{isCollection?'/pages/icon/collection.png':'/pages/icon/collection-anti.png'}}"></image>
+  <button open-type="share">
+    <image class="jieshao_pic" src="/pages/icon/share.png"></image>
+  </button>  
+</view>
+<view class="geshou">{{detail.geshou}}</view>
+<view class="sing">{{detail.sing}}</view>
+<view class="music">
+  <image bindtap="music" src="{{isMusic?'/pages/icon/collection.png':'/pages/icon/collection-anti.png'}}"></image>
+</view>

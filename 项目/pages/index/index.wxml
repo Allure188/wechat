@@ -1,0 +1,28 @@
+<!--轮播图-->
+<swiper indicator-dots="true" indicator-color="red" indicator-active-color="blue" 
+interval="3000" circular="true"autoplay="true">
+  <swiper-item wx:for="{{lunbo}}" wx:key="key">
+    <image src="/pages{{item.pic}}"></image>
+  </swiper-item>
+</swiper>
+<!--小图标-->
+<view class="litte">
+  <view class="box" wx:for="{{samll}}" wx:key="key">
+    <image src="/pages{{item.pic}}"></image>
+    <view>{{item.title}}</view>
+  </view>
+</view>
+<!--更多-->
+<view class="many">
+  <view class="top">
+    <view>更多</view>
+    <view>></view>
+  </view>
+  <view class="bottom">
+    <view class="block" wx:for="{{music}}" wx:key="key">
+      <image src="{{item.pic}}" bindtap="tiao" data-id="{{item.id}}"></image>
+      <view class="sing">{{item.sing}}</view>
+      <view class="singer">{{item.geshou}}</view>
+    </view>
+  </view>
+</view>

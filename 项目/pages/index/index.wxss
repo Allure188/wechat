@@ -1,0 +1,52 @@
+.litte{
+  width: 100%;
+  height: 200rpx;
+  font-size: 24rpx;
+  text-align: center;
+  display: flex;
+  flex-basis: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.box{
+  width: 100rpx;
+}
+.box image{
+  width: 100%;
+  height: 100rpx;
+}
+.many{
+  width: 100%;
+  height: 500rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.top{
+  width: 95%;
+  height: 100rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bottom{
+  width: 95%;
+  height: 600rpx;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.block{
+  width: 31%;
+  height: 300rpx;
+}
+.block image{
+  width: 100%;
+  height: 200rpx;
+}
+.sing{
+  font-size: 32rpx;
+}
+.singer{
+  font-size: 36rpx;
+}
